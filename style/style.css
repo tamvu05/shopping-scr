@@ -1,0 +1,293 @@
+#menu,
+#action {
+    display: flex;
+}
+
+#menu .item,
+#action .item {
+    padding-left: 30px;
+}
+
+#menu .item a {
+    text-decoration: none;
+    color: black;
+}
+
+#action .item {
+    display: flex;
+}
+
+#action .item .phone {
+    margin: auto;
+}
+
+#menu .item .dropdown button {
+    padding: 0;
+    padding-bottom: 5px;
+    border: 0;
+}
+
+#menu .item:hover,
+#menu .item a:hover {
+    color: #15ac7f;
+}
+
+#action .item button {
+    padding: 0;
+}
+
+#breadcrumb {
+    margin-bottom: 16px;
+    margin-top: 6px;
+    border-top: 1px solid rgb(217, 217, 217);
+    border-bottom: 1px solid rgb(217, 217, 217);
+    background-color: rgb(250, 250, 255);
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#breadcrumb ol {
+    margin: 5px;
+}
+
+#title a h4 {
+    margin: 16px 0;
+    font-weight: bold;
+}
+
+#title a,
+#title-n a {
+    text-decoration: none;
+    color: black;
+}
+
+#title-n a h4 {
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.card-body .card-price,
+.card-body .card-text {
+    color: black;
+    margin: 0;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.col-xl-3 .card,
+.col-xl-2 .card {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.col-xl-3 .card a .card-body {
+    height: 100px;
+}
+
+.col-xl-3 .card a:hover,
+.col-xl-2 .card a:hover {
+    box-shadow: 0 0 8px rgb(230, 230, 240);
+}
+
+#title a:hover,
+#title-n a:hover {
+    color: #009adc;
+}
+
+#footer-image {
+    width: 100%;
+}
+
+#footer-image img {
+    width: inherit;
+}
+
+#footer .col-xl-3 {
+    text-align: left;
+}
+
+.footer-content h5 {
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.col-xl-3 .list-item {
+    padding-left: 16px;
+}
+
+.col-xl-3 .list-item a {
+    text-decoration: none;
+    color: black;
+}
+
+#footer .col-xl-3 img {
+    width: 282px
+}
+
+.copyright {
+    color: white;
+    background-color: rgb(59, 59, 59);
+    padding: 7px;
+    font-size: 12px;
+    text-align: center;
+}
+
+/* modal_store */
+
+.dialog_store {
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    width: 1518px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.dialog_store_inner {
+    animation: showModal 0.2s linear;
+    z-index: 2;
+    position: absolute;
+    right: 113px;
+    top: 90px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 8px rgb(177, 176, 176);
+    border-radius: 5px;
+}
+
+.dialog_store_header {
+    text-align: center;
+    border-bottom: 1px solid rgb(213, 211, 211);
+}
+
+.dialog_store_body {
+    margin: 20px 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(213, 211, 211);
+}
+
+.dialog_store_body p {
+    color: rgb(119, 119, 119);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.dialog_store_footer .money {
+    color: red;
+}
+
+.dialog_store_footer .firts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dialog_store_footer .two {
+    background-color: red;
+    color: white;
+    padding: 8px 50px;
+    border: 1px solid red;
+}
+
+.dialog_store_footer .one {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    padding: 8px 30px;
+}
+
+.finally a {
+    text-decoration: none;
+}
+
+.dialog_store_footer .finally {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.one:hover {
+    color: white;
+    background-color: red;
+
+}
+
+.two:hover {
+    color: red;
+    background-color: white;
+}
+
+.carousel {
+    z-index: 0;
+}
+
+.hide {
+    display: none;
+}
+
+.dialog_store_inner::before {
+    content: "";
+    border: 20px solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    position: absolute;
+    top: -31px;
+    right: 44px;
+}
+
+
+/* modal_search */
+.dialog_search {
+    z-index: 1;
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    width: 1518px;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+}
+
+.dialog_search_inner {
+    animation: showModal 0.2s linear;
+    z-index: 1;
+    position: absolute;
+    right: 354px;
+    top: 90px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 8px rgb(177, 176, 176);
+    border-radius: 5px;
+}
+
+
+.dialog_search_header {
+    border-bottom: 1px solid rgb(213, 211, 211);
+    text-align: center;
+}
+
+.dialog_search input {
+    margin-top: 20px;
+    padding: 5px 20px;
+}
+
+.dialog_search_inner::before {
+    content: "";
+    border: 20px solid;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+    position: absolute;
+    top: -31px;
+    right: 37px;
+}
+
+@keyframes showModal {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

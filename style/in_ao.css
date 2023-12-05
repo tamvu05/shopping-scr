@@ -1,0 +1,69 @@
+/* in áo, id giày, đặt áo đội */
+
+.col-xl-9 {
+    font-size:19px;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+.gioi-thieu {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.gioi-thieu img {
+    margin-top: 30px;
+}
+
+.gioi-thieu i {
+    font-size: 16px;
+}
+
+.col-xl-3 {
+    text-align: center;
+}
+
+.col-xl-3 .sukuna {
+    border: 1px solid rgb(226, 224, 224);
+    padding: 20px 20px;
+}
+
+.sukuna h5 {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.sukuna div {
+    text-align: left;
+    padding: 10px 0;
+    border-bottom: 1px dashed rgb(211, 209, 209) ;
+}
+
+.sukuna a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-banner-image img {
+    margin-top: 35px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/* đặt áo đội */
+.left {
+    text-align: left;
+    width: 300px;
+    padding-left:10px ;
+}
+
+

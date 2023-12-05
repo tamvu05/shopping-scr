@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SHOPPPING</title>
+    <link rel="stylesheet" href="style/in_ao.css">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="header">
+
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/logo.webp" alt="">
+                </a>
+            </div>
+
+            <div id="menu">
+                <div class="item">
+                    <a href="index.html">
+                        Trang chủ
+                    </a>
+                </div>
+                <div class="item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Sản phẩm
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="collection-player.html">Áo bóng đá bản Player 2023</a>
+                            </li>
+                            <li><a class="dropdown-item" href="collection-fan.html">Áo bóng đá bản Fan 2023</a></li>
+                            <li><a class="dropdown-item" href="collection-classic.html">Áo bóng đá Classic</a></li>
+                            <li><a class="dropdown-item" href="shoes.html">Giày bóng đá</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dịch vụ
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="in_ao.html">In áo</a></li>
+                            <li><a class="dropdown-item" href="ID_giay.html">ID giày</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="dat_ao_doi.html">
+                        Đặt áo đội
+                    </a>
+                </div>
+            </div>
+
+            <div id="action">
+                <div class="item">
+                    <div class="open_dialog_search">
+                        <img src="images/search.png" alt="">
+                    </div>
+                </div>
+            
+                <div class="item">
+                    <a href="">
+                        <img src="images/call.png" alt="">
+                    </a>
+                    <b class="phone">0123456789</b>
+                </div>
+            
+                <div class="item">
+                    <div class="open_dialog_store">
+                        <img src="images/shopping_cart.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- modal -->
+        <div class="dialog_search hide">
+            <div class="dialog_search_inner">
+                <div class="dialog_search_header">
+                    <h6>TÌM KIẾM</h6>
+                </div>
+                <div class="dialog_search_body">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                </div>
+            </div>
+        </div>
+        
+        <div class="dialog_store hide">
+            <div class="dialog_store_inner">
+                <div class="dialog_store_header">
+                    <h6>GIỎ HÀNG</h6>
+                </div>
+                <div class="dialog_store_body">
+                    <img src="images/shopping_cart.png" alt="">
+                    <p>Hiện chưa có sản phẩm</p>
+                </div>
+                <div class="dialog_store_footer">
+                    <div class="firts">
+                        <span>Tổng tiền</span>
+                        <span class="money">0đ</span>
+                    </div>
+                    <div class="finally">
+                        <a href="cart.html"><span class="one">Xem giỏ hàng</span></a>
+                        <a href="cart.html"><span class="two">Thanh toán</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--điều hướng-->
+        <div id="breadcrumb">
+            <div class="item">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">In áo</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+
+        <div id="content">
+
+            <div class="row">
+
+                <div class="col-9 col-xl-9">
+
+                    <b><h1>In áo</h1></b>
+                    <span>Cảm ơn các bạn đã quan tâm đến dịch vụ in áo của SPORTIFIVE, Chúng tôi có những dịch vụ sau đây:</span>
+                    <span>
+                        <ul>
+                            <b>
+                                <li>In áo bóng đá lấy trong ngày (Hà Nội): 2 tiếng/freeship</li>
+                                <li>In áo khi mua tại shop</li>
+                            </b>
+                        </ul>
+                    </span>
+                    <span>Bảng giá các kiểu in:</span>
+                    <table> 
+                        <tr>
+                            <td>In font theo yêu cầu (VNĐ)</td>
+                            <td>In font chuẩn theo giải đấu, đội bóng (VNĐ)</td>
+                        </tr>
+                        <tr>
+                            <td>50.000/1 bộ</td>
+                            <td>100.000/1 bộ</td>
+                        </tr>
+                    </table>
+                    <i>
+                        <span>Các khách có nhu cầu in khi mua áo xin vui lòng:</span>
+                        <span>
+                            <ul>
+                                <b>
+                                    <li>Liên hệ fanpage facebook qua messenger: SPORTIFIVE</li>
+                                    <li>Liên hệ qua SĐT shop: 0123456789</li>
+                                </b>
+                            </ul>
+                        </span>
+                    </i>
+
+                    <div class="gioi-thieu">
+                        <div><img src="images/in_co_ban.jpg" alt=""></div>
+                        <i><b>Gói in cơ bản: 50k/áo</b></i>
+                        <br>
+                        <div><img src="images/in_chinh_hang.jpg" alt=""></div>
+                        <i><b>Gói in chính hãng: 100k/áo</b></i>
+                    </div>
+                </div>
+
+                <div class="col-3 col-xl-3">
+
+                    <div class="sukuna">
+
+                        <h5>DANH MỤC PAGE</h5>
+                        <div><a href="gioi_thieu.html">Giới thiệu</a></div>
+                        <div><a href="chinh_sach_doi_tra.html">Chính sách đổi trả</a></div>
+                        <div><a href="chinh_sach_bao_mat.html">Chính sách bảo mật</a></div>
+                        <div><a href="dieu_khoan_dich_vu.html">Điều khoản dịch vụ</a></div>
+                        <div><a href="lien_he.html">Liên hệ</a></div>
+
+                    </div>
+
+                    <div class="page-banner-image">
+                        <img src="images/page_banner_image.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer-image">
+            <img src="images/logo-footer.webp" alt="">
+        </div>
+
+        <div id="footer">
+
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-3 col-xl-3">
+                        <h5>VỀ SPORTIFIVE</h5>
+                        <p>Chúng tôi được tạo ra với mục đích mang lại thật nhiều điều tích cực cho cộng đồng những người yêu bóng đá trên
+                        toàn đất nước Việt Nam. Với chất lượng sản phẩm cùng dịch vụ chăm sóc khách hàng kỹ lưỡng, tỉ mỉ, SPORTIFIVE hi vọng
+                        sẽ là một địa chỉ đáng tin cậy dành cho tất cả các anh em yêu bóng đá. Cùng nhau cháy hết mình với môn thể thao Vua, đó
+                        chính là những gì chúng tôi muốn truyền tải đến các khách hàng. Cảm ơn !</p>
+                    </div>
+                    <div class="col-3 col-xl-3">
+                        <h5>THANH TOÁN</h5>
+                        <a href="">
+                            <img src="images/pttt.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="col-3 col-xl-3">
+                        <h5>HỖ TRỢ KHÁCH HÀNG</h5>
+                        <ul class="list-item">
+                            <a href="gioi_thieu.html">
+                                <li>Giới thiệu</li>
+                            </a>
+                            <a href="chinh_sach_doi_tra.html">
+                                <li>Chính sách đổi trả</li>
+                            </a>
+                            <a href="chinh_sach_bao_mat.html">
+                                <li>Chính sách bảo mật</li>
+                            </a>
+                            <a href="dieu_khoan_dich_vu.html">
+                                <li>Điều khoản dịch vụ</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-3 col-xl-3">
+                        <h5>LIÊN HỆ</h5>
+                        <a href="lien_he.html">
+                            <img src="images/fanpage.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                Copyright &copy; 2023 HCMUE. Powered by Team 5
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
