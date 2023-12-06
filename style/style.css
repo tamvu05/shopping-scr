@@ -152,7 +152,7 @@
     animation: showModal 0.2s linear;
     z-index: 2;
     position: absolute;
-    right: 113px;
+    right: 183px;
     top: 90px;
     width: 400px;
     background-color: rgb(255, 255, 255);
@@ -239,8 +239,15 @@
     right: 44px;
 }
 
+.open_dialog_store img:hover {
+    cursor: pointer;
+}
 
 /* modal_search */
+.open_dialog_search img:hover {
+    cursor: pointer;
+} 
+
 .dialog_search {
     z-index: 1;
     /* background-color: rgba(0, 0, 0, 0.6); */
@@ -254,7 +261,7 @@
     animation: showModal 0.2s linear;
     z-index: 1;
     position: absolute;
-    right: 354px;
+    right: 424px;
     top: 90px;
     background-color: rgb(255, 255, 255);
     padding: 20px;
