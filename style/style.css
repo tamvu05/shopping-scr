@@ -291,3 +291,11 @@
         opacity: 1;
     }
 }
+
+#bttop {
+    width: 40px;
+    position: fixed;
+    right: 100px;
+    bottom: 50px;
+    display: none;
+}

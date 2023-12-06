@@ -30,3 +30,17 @@ close_modal_search.addEventListener('click', function(e){
         openToggleModalSearch()
     }
 });
+
+//backtotop
+$('#bttop').click(function(){
+    $('html').animate({
+        scrollTop: 0
+    }, 500);
+});
+
+$(window).scroll(function(){
+    if ($(this).scrollTop() != 0) {
+        $('#bttop').fadeIn();
+    }
+    else $('#bttop').fadeOut();
+});
